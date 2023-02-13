@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 94169671adc5ca74d8a9fccf49b340b9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pilayer: {fileID: 8329612726877482604, guid: acc5f080643a6d043a868741c1d980dd,
+      type: 3}
+  - torch: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

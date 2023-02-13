@@ -1,0 +1,3545 @@
+fileFormatVersion: 2
+guid: 8023cb560aa414afa813fb3a47965d99
+timeCreated: 1459759424
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ankle_IK_L
+    100002: ankle_IK_R
+    100004: arm_L
+    100006: arm_R
+    100008: Armature_Warrior
+    100010: brow_L
+    100012: brow_R
+    100014: calf_L
+    100016: calf_R
+    100018: clavicle_L
+    100020: clavicle_R
+    100022: elbow_IK_L
+    100024: elbow_IK_R
+    100026: eyelid_L
+    100028: eyelid_R
+    100030: fingers_L
+    100032: fingers_R
+    100034: fingertips_L
+    100036: fingertips_R
+    100038: foot_L
+    100040: foot_R
+    100042: Grenade_Smoke
+    100044: Grenade_Sulfur
+    100046: hand_L
+    100048: hand_R
+    100050: head
+    100052: hips
+    100054: jaw
+    100056: knee_IK_L
+    100058: knee_IK_R
+    100060: main
+    100062: neck
+    100064: Potion_Mana
+    100066: quad_L
+    100068: quad_R
+    100070: Shield
+    100072: shoulder_L
+    100074: shoulder_R
+    100076: slot_1
+    100078: slot_2
+    100080: slot_3
+    100082: slot_4
+    100084: slot_5
+    100086: slot_6
+    100088: spine
+    100090: Sword
+    100092: thumb_L
+    100094: thumb_R
+    100096: torso
+    100098: //RootNode
+    100100: Warrior_Skin_1
+    100102: Warrior_Skin_2
+    100104: Warrior_Skin_3
+    100106: weapon_L
+    100108: weapon_R
+    100110: wrist_IK_L
+    100112: wrist_IK_R
+    100114: ankle_IK.L
+    100116: ankle_IK.L_end
+    100118: ankle_IK.R
+    100120: ankle_IK.R_end
+    100122: arm.L
+    100124: arm.R
+    100126: brow.L
+    100128: brow.L_end
+    100130: brow.R
+    100132: brow.R_end
+    100134: calf.L
+    100136: calf.R
+    100138: clavicle.L
+    100140: clavicle.R
+    100142: elbow_IK.L
+    100144: elbow_IK.L_end
+    100146: elbow_IK.R
+    100148: elbow_IK.R_end
+    100150: eyelid.L
+    100152: eyelid.L_end
+    100154: eyelid.R
+    100156: eyelid.R_end
+    100158: fingers.L
+    100160: fingers.R
+    100162: fingertips.L
+    100164: fingertips.L_end
+    100166: fingertips.R
+    100168: fingertips.R_end
+    100170: foot.L
+    100172: foot.L_end
+    100174: foot.R
+    100176: foot.R_end
+    100178: hand.L
+    100180: hand.R
+    100182: jaw_end
+    100184: knee_IK.L
+    100186: knee_IK.L_end
+    100188: knee_IK.R
+    100190: knee_IK.R_end
+    100192: quad.L
+    100194: quad.R
+    100196: shoulder.L
+    100198: shoulder.R
+    100200: slot_1 1
+    100202: slot_1_end
+    100204: slot_2 1
+    100206: slot_2_end
+    100208: slot_3 1
+    100210: slot_3_end
+    100212: thumb.L
+    100214: thumb.L_end
+    100216: thumb.R
+    100218: thumb.R_end
+    100220: weapon.L
+    100222: weapon.L_end
+    100224: weapon.R
+    100226: weapon.R_end
+    100228: wrist_IK.L
+    100230: wrist_IK.L_end
+    100232: wrist_IK.R
+    100234: wrist_IK.R_end
+    400000: ankle_IK_L
+    400002: ankle_IK_R
+    400004: arm_L
+    400006: arm_R
+    400008: Armature_Warrior
+    400010: brow_L
+    400012: brow_R
+    400014: calf_L
+    400016: calf_R
+    400018: clavicle_L
+    400020: clavicle_R
+    400022: elbow_IK_L
+    400024: elbow_IK_R
+    400026: eyelid_L
+    400028: eyelid_R
+    400030: fingers_L
+    400032: fingers_R
+    400034: fingertips_L
+    400036: fingertips_R
+    400038: foot_L
+    400040: foot_R
+    400042: Grenade_Smoke
+    400044: Grenade_Sulfur
+    400046: hand_L
+    400048: hand_R
+    400050: head
+    400052: hips
+    400054: jaw
+    400056: knee_IK_L
+    400058: knee_IK_R
+    400060: main
+    400062: neck
+    400064: Potion_Mana
+    400066: quad_L
+    400068: quad_R
+    400070: Shield
+    400072: shoulder_L
+    400074: shoulder_R
+    400076: slot_1
+    400078: slot_2
+    400080: slot_3
+    400082: slot_4
+    400084: slot_5
+    400086: slot_6
+    400088: spine
+    400090: Sword
+    400092: thumb_L
+    400094: thumb_R
+    400096: torso
+    400098: //RootNode
+    400100: Warrior_Skin_1
+    400102: Warrior_Skin_2
+    400104: Warrior_Skin_3
+    400106: weapon_L
+    400108: weapon_R
+    400110: wrist_IK_L
+    400112: wrist_IK_R
+    400114: ankle_IK.L
+    400116: ankle_IK.L_end
+    400118: ankle_IK.R
+    400120: ankle_IK.R_end
+    400122: arm.L
+    400124: arm.R
+    400126: brow.L
+    400128: brow.L_end
+    400130: brow.R
+    400132: brow.R_end
+    400134: calf.L
+    400136: calf.R
+    400138: clavicle.L
+    400140: clavicle.R
+    400142: elbow_IK.L
+    400144: elbow_IK.L_end
+    400146: elbow_IK.R
+    400148: elbow_IK.R_end
+    400150: eyelid.L
+    400152: eyelid.L_end
+    400154: eyelid.R
+    400156: eyelid.R_end
+    400158: fingers.L
+    400160: fingers.R
+    400162: fingertips.L
+    400164: fingertips.L_end
+    400166: fingertips.R
+    400168: fingertips.R_end
+    400170: foot.L
+    400172: foot.L_end
+    400174: foot.R
+    400176: foot.R_end
+    400178: hand.L
+    400180: hand.R
+    400182: jaw_end
+    400184: knee_IK.L
+    400186: knee_IK.L_end
+    400188: knee_IK.R
+    400190: knee_IK.R_end
+    400192: quad.L
+    400194: quad.R
+    400196: shoulder.L
+    400198: shoulder.R
+    400200: slot_1 1
+    400202: slot_1_end
+    400204: slot_2 1
+    400206: slot_2_end
+    400208: slot_3 1
+    400210: slot_3_end
+    400212: thumb.L
+    400214: thumb.L_end
+    400216: thumb.R
+    400218: thumb.R_end
+    400220: weapon.L
+    400222: weapon.L_end
+    400224: weapon.R
+    400226: weapon.R_end
+    400228: wrist_IK.L
+    400230: wrist_IK.L_end
+    400232: wrist_IK.R
+    400234: wrist_IK.R_end
+    2300000: Grenade_Smoke
+    2300002: Grenade_Sulfur
+    2300004: Potion_Mana
+    2300006: Shield
+    2300008: Sword
+    3300000: Grenade_Smoke
+    3300002: Grenade_Sulfur
+    3300004: Potion_Mana
+    3300006: Shield
+    3300008: Sword
+    4300000: Shield
+    4300002: Sword
+    4300004: Warrior_Skin_3
+    4300006: Warrior_Skin_2
+    4300008: Warrior_Skin_1
+    4300010: Potion_Mana
+    4300012: Grenade_Sulfur
+    4300014: Grenade_Smoke
+    7400000: Default Take
+    7400002: Archer_Attack_1
+    7400004: Archer_Attack_2
+    7400006: Archer_Damage
+    7400008: Archer_Jump
+    7400010: Archer_Use_1
+    7400012: Archer_Use_2
+    7400014: Archer_Use_3
+    7400016: Character_Idle_1
+    7400018: Character_Idle_2
+    7400020: Character_Idle_3
+    7400022: Character_RunCycle
+    7400024: Character_WalkCycle
+    7400026: Rogue_Attack_1
+    7400028: Rogue_Attack_2
+    7400030: Rogue_Damage
+    7400032: Character_Death
+    7400034: Rogue_Jump
+    7400036: Rogue_Use_1
+    7400038: Rogue_Use_2
+    7400040: Rogue_Use_3
+    7400042: Warrior_Attack_1
+    7400044: Warrior_Attack_2
+    7400046: Warrior_Damage
+    7400048: Warrior_Jump
+    7400050: Warrior_Use_1
+    7400052: Warrior_Use_2
+    7400054: Warrior_Use_3
+    7400056: Armature_Warrior|Archer_Attack_2
+    7400058: Armature_Warrior|Archer_Damage
+    7400060: Armature_Warrior|Archer_Jump
+    7400062: Armature_Warrior|Archer_Use_1
+    7400064: Armature_Warrior|Archer_Use_2
+    7400066: Armature_Warrior|Archer_Use_3
+    7400068: Armature_Warrior|Character_Idle_1
+    7400070: Armature_Warrior|Character_Idle_2
+    7400072: Armature_Warrior|Character_Idle_3
+    7400074: Armature_Warrior|Character_RunCycle
+    7400076: Armature_Warrior|Character_WalkCycle
+    7400078: Armature_Warrior|Rogue_Attack_1
+    7400080: Armature_Warrior|Rogue_Attack_2
+    7400082: Armature_Warrior|Rogue_Damage
+    7400084: Armature_Warrior|Character_Death
+    7400086: Armature_Warrior|Rogue_Jump
+    7400088: Armature_Warrior|Rogue_Use_1
+    7400090: Armature_Warrior|Rogue_Use_2
+    7400092: Armature_Warrior|Rogue_Use_3
+    7400094: Armature_Warrior|Warrior_Attack_1
+    7400096: Armature_Warrior|Warrior_Attack_2
+    7400098: Armature_Warrior|Warrior_Damage
+    7400100: Armature_Warrior|Warrior_Jump
+    7400102: Armature_Warrior|Warrior_Use_1
+    7400104: Armature_Warrior|Warrior_Use_2
+    7400106: Armature_Warrior|Warrior_Use_3
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Shield
+    13700002: Sword
+    13700004: Warrior_Skin_1
+    13700006: Warrior_Skin_2
+    13700008: Warrior_Skin_3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature_Warrior|Archer_Attack_2' has import
+      animation warnings that might lower retargeting quality:\n\t'hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Archer_Damage' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Warrior|Archer_Use_1' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Archer_Use_2' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Warrior|Archer_Use_3' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Character_RunCycle' has import animation warnings that might
+      lower retargeting quality:\n\t'hips' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\nClip 'Armature_Warrior|Character_WalkCycle'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Rogue_Attack_1' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Warrior|Rogue_Attack_2'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Rogue_Damage' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Warrior|Character_Death'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Rogue_Use_1' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Warrior|Rogue_Use_2' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Rogue_Use_3' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Warrior|Warrior_Attack_1'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Warrior_Attack_2' has import animation warnings that might
+      lower retargeting quality:\n\t'hips' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\nClip 'Armature_Warrior|Warrior_Damage'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Warrior_Use_1' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Warrior|Warrior_Use_2' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Warrior|Warrior_Use_3' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Armature_Warrior|Archer_Attack_2':\n\tRightLowerLeg
+      average position error 0.3 mm and maximum position error 1.7 mm at time 0: 8
+      (27.6%) Frame 8\n\tLeftLowerArm average position error 1.4 mm and maximum position
+      error 7.4 mm at time 0:19 (65.5%) Frame 19\n\nRetargeting quality report for
+      clip 'Armature_Warrior|Archer_Damage':\n\tRetargeting quality is good. No significant
+      differences with original animation were found.\n\nRetargeting quality report
+      for clip 'Armature_Warrior|Archer_Jump':\n\tLeftLowerArm average position error
+      1.0 mm and maximum position error 8.0 mm at time 0: 2 (5.6%) Frame 2\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Archer_Use_1':\n\tRightLowerArm average
+      position error 0.2 mm and maximum position error 5.0 mm at time 1: 7 (64.6%)
+      Frame 31\n\nRetargeting quality report for clip 'Armature_Warrior|Archer_Use_2':\n\tRightLowerArm
+      average position error 0.2 mm and maximum position error 3.8 mm at time 1: 9
+      (68.8%) Frame 33\n\nRetargeting quality report for clip 'Armature_Warrior|Archer_Use_3':\n\tRightLowerArm
+      average position error 0.3 mm and maximum position error 5.6 mm at time 0: 6
+      (10.0%) Frame 6\n\nRetargeting quality report for clip 'Armature_Warrior|Character_Idle_1':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Character_Idle_2':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Character_Idle_3':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Character_RunCycle':\n\tRightLowerArm
+      average position error 0.2 mm and maximum position error 1.1 mm at time 0:23
+      (95.8%) Frame 23\n\nRetargeting quality report for clip 'Armature_Warrior|Character_WalkCycle':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Rogue_Attack_1':\n\tRetargeting quality
+      is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Rogue_Attack_2':\n\tLeftLowerArm average
+      position error 0.2 mm and maximum position error 1.1 mm at time 1: 1 (83.3%)
+      Frame 25\n\nRetargeting quality report for clip 'Armature_Warrior|Rogue_Damage':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Character_Death':\n\tLeftLowerLeg
+      average position error 1.2 mm and maximum position error 2.4 mm at time 1:20
+      (100.0%) Frame 44\n\tLeftLowerArm average position error 0.5 mm and maximum
+      position error 7.4 mm at time 0: 5 (11.4%) Frame 5\n\nRetargeting quality report
+      for clip 'Armature_Warrior|Rogue_Jump':\n\tLeftLowerArm average position error
+      1.0 mm and maximum position error 8.0 mm at time 0: 2 (5.6%) Frame 2\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Rogue_Use_1':\n\tRightLowerArm average
+      position error 0.3 mm and maximum position error 5.0 mm at time 1: 7 (64.6%)
+      Frame 31\n\nRetargeting quality report for clip 'Armature_Warrior|Rogue_Use_2':\n\tRightLowerArm
+      average position error 0.2 mm and maximum position error 3.8 mm at time 1: 9
+      (68.8%) Frame 33\n\nRetargeting quality report for clip 'Armature_Warrior|Rogue_Use_3':\n\tRightLowerArm
+      average position error 0.3 mm and maximum position error 5.6 mm at time 0: 6
+      (10.0%) Frame 6\n\nRetargeting quality report for clip 'Armature_Warrior|Warrior_Attack_1':\n\tLeftLowerLeg
+      average position error 0.3 mm and maximum position error 2.6 mm at time 0: 5
+      (17.2%) Frame 5\n\tRightLowerArm average position error 1.4 mm and maximum position
+      error 7.4 mm at time 0:19 (65.5%) Frame 19\n\nRetargeting quality report for
+      clip 'Armature_Warrior|Warrior_Attack_2':\n\tLeftLowerLeg average position error
+      0.3 mm and maximum position error 2.3 mm at time 0: 3 (12.5%) Frame 3\n\tRightLowerLeg
+      average position error 0.3 mm and maximum position error 1.1 mm at time 0:14
+      (58.3%) Frame 14\n\tRightLowerArm average position error 0.4 mm and maximum
+      position error 3.4 mm at time 0:11 (45.8%) Frame 11\n\nRetargeting quality report
+      for clip 'Armature_Warrior|Warrior_Damage':\n\tRetargeting quality is good.
+      No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature_Warrior|Warrior_Jump':\n\tLeftLowerArm average
+      position error 1.0 mm and maximum position error 8.0 mm at time 0: 2 (5.6%)
+      Frame 2\n\nRetargeting quality report for clip 'Armature_Warrior|Warrior_Use_1':\n\tRightLowerArm
+      average position error 0.3 mm and maximum position error 5.0 mm at time 1: 7
+      (64.6%) Frame 31\n\nRetargeting quality report for clip 'Armature_Warrior|Warrior_Use_2':\n\tRightLowerArm
+      average position error 0.2 mm and maximum position error 3.8 mm at time 1: 9
+      (68.8%) Frame 33\n\nRetargeting quality report for clip 'Armature_Warrior|Warrior_Use_3':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n"
+    animationDoRetargetingWarnings: 1
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature_Warrior|Character_Idle_1
+      takeName: Armature_Warrior|Character_Idle_1
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000000000000000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 1
+      - path: Warrior_Skin_2
+        weight: 1
+      - path: Warrior_Skin_3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Character_Idle_2
+      takeName: Armature_Warrior|Character_Idle_2
+      firstFrame: 0
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Character_Idle_3
+      takeName: Armature_Warrior|Character_Idle_3
+      firstFrame: 0
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Character_RunCycle
+      takeName: Armature_Warrior|Character_RunCycle
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: -10
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Character_WalkCycle
+      takeName: Armature_Warrior|Character_WalkCycle
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Character_Death
+      takeName: Armature_Warrior|Character_Death
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Warrior_Attack_1
+      takeName: Armature_Warrior|Warrior_Attack_1
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Warrior_Attack_2
+      takeName: Armature_Warrior|Warrior_Attack_2
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Warrior_Damage
+      takeName: Armature_Warrior|Warrior_Damage
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: -10
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Warrior_Jump
+      takeName: Armature_Warrior|Warrior_Jump
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Warrior_Use_1
+      takeName: Armature_Warrior|Warrior_Use_1
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000000000000000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Warrior_Use_2
+      takeName: Armature_Warrior|Warrior_Use_2
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Warrior|Warrior_Use_3
+      takeName: Armature_Warrior|Warrior_Use_3
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Warrior
+        weight: 1
+      - path: Armature_Warrior/main
+        weight: 1
+      - path: Armature_Warrior/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3 1/Potion_Mana
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/quad.R/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Warrior/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Shield
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Sword
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Warrior/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Warrior/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      - path: Warrior_Skin_1
+        weight: 0
+      - path: Warrior_Skin_2
+        weight: 0
+      - path: Warrior_Skin_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: quad.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: quad.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: torso
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingers.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingertips.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingers.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingertips.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Warrior(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature_Warrior
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: main
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106709, y: 5.96046448e-08, z: .707106829, w: 2.98023224e-08}
+      scale: {x: 1, y: .999999702, z: .999999702}
+      transformModified: 1
+    - name: wrist_IK.R
+      position: {x: .0487455167, y: -.00111038564, z: .0106738312}
+      rotation: {x: -.707106709, y: -4.19488288e-07, z: -.707106829, w: 2.52907597e-08}
+      scale: {x: 1.00000036, y: 1, z: .999999762}
+      transformModified: 1
+    - name: wrist_IK.R_end
+      position: {x: -0, y: .00891658012, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wrist_IK.L
+      position: {x: .0488282591, y: -.00198727567, z: -.0106420266}
+      rotation: {x: -.707106709, y: -4.19488288e-07, z: -.707106829, w: 2.52907455e-08}
+      scale: {x: 1.00000036, y: 1, z: .999999762}
+      transformModified: 1
+    - name: wrist_IK.L_end
+      position: {x: -0, y: .00891657732, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_IK.L
+      position: {x: .0698815212, y: -.0228949022, z: -.0183667224}
+      rotation: {x: -.707106709, y: -5.85475313e-09, z: -.707106829, w: 7.76974787e-08}
+      scale: {x: 1.00000036, y: 1, z: .999999762}
+      transformModified: 1
+    - name: elbow_IK.L_end
+      position: {x: -0, y: .00999952294, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_IK.R
+      position: {x: .0698815063, y: -.0228949133, z: .0183667317}
+      rotation: {x: -.707106709, y: -7.05782668e-07, z: -.707106829, w: -2.49274819e-07}
+      scale: {x: 1.00000036, y: .999999762, z: .999999464}
+      transformModified: 1
+    - name: elbow_IK.R_end
+      position: {x: -0, y: .00999952294, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_IK.L
+      position: {x: .0291405488, y: .0279682633, z: -.0102592725}
+      rotation: {x: -5.96046448e-08, y: .707106709, z: 3.26754765e-08, w: .707106829}
+      scale: {x: .999999762, y: 1, z: .999999881}
+      transformModified: 1
+    - name: knee_IK.L_end
+      position: {x: -0, y: .0122001143, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_IK.R
+      position: {x: .0291405488, y: .0279682633, z: .00711735897}
+      rotation: {x: -1.78813934e-07, y: .70710659, z: 1.64229291e-07, w: .707106948}
+      scale: {x: 1.00000012, y: .99999994, z: .999999702}
+      transformModified: 1
+    - name: knee_IK.R_end
+      position: {x: -0, y: .0122001125, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ankle_IK.L
+      position: {x: .00534781022, y: .00341157126, z: -.0060954052}
+      rotation: {x: 1, y: 2.98023224e-08, z: -4.08291817e-06, w: 2.68220901e-07}
+      scale: {x: .999999523, y: .999999642, z: .999999821}
+      transformModified: 1
+    - name: ankle_IK.L_end
+      position: {x: -0, y: .00805969257, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ankle_IK.R
+      position: {x: .00534781022, y: -.00415098295, z: .00187837088}
+      rotation: {x: -3.33786011e-06, y: 5.96046448e-08, z: 1, w: -1.1920929e-07}
+      scale: {x: .99999994, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: ankle_IK.R_end
+      position: {x: -0, y: .00805969443, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine
+      position: {x: .0603513978, y: -.00239658076, z: 8.54840732e-09}
+      rotation: {x: -2.98023473e-08, y: -.707106948, z: 0, w: .70710665}
+      scale: {x: 1.00000036, y: .999999583, z: .999999285}
+      transformModified: 1
+    - name: hips
+      position: {x: 4.55688098e-10, y: -.000647073903, z: .00220531388}
+      rotation: {x: .462725788, y: .534682035, z: .46272558, w: .534682095}
+      scale: {x: 1.00000036, y: .999999583, z: .999999285}
+      transformModified: 1
+    - name: quad.L
+      position: {x: -.00116243097, y: .00390571891, z: -.0037764688}
+      rotation: {x: -.0256065968, y: .741753757, z: .0216455739, w: .66983366}
+      scale: {x: .999999702, y: 1, z: 1.00000072}
+      transformModified: 1
+    - name: calf.L
+      position: {x: 1.86264504e-10, y: .0231770519, z: -1.11758706e-10}
+      rotation: {x: -.0734770447, y: -.0439477898, z: -.00200096075, w: .996326149}
+      scale: {x: 1.00000119, y: 1.00000131, z: .999999106}
+      transformModified: 1
+    - name: foot.L
+      position: {x: -1.11758706e-10, y: .026783593, z: 4.05125322e-10}
+      rotation: {x: .549951375, y: .0112565449, z: -.0193898603, w: .83489567}
+      scale: {x: 1.00000024, y: 1.0000006, z: .999999046}
+      transformModified: 1
+    - name: foot.L_end
+      position: {x: -0, y: .0109276148, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: quad.R
+      position: {x: -.00116242794, y: .00390568818, z: .00377646461}
+      rotation: {x: -.021647213, y: .669833243, z: .0256075785, w: .741754055}
+      scale: {x: 1.00000012, y: 1.00000095, z: 1}
+      transformModified: 1
+    - name: calf.R
+      position: {x: 8.80099826e-10, y: .0231770407, z: 2.60770322e-10}
+      rotation: {x: -.073473461, y: .0439474061, z: .00200175843, w: .996326387}
+      scale: {x: .999999583, y: .999999642, z: 1.00000012}
+      transformModified: 1
+    - name: foot.R
+      position: {x: 2.14204182e-10, y: .026783593, z: 1.49011609e-10}
+      rotation: {x: .549950182, y: -.0112579092, z: .0193875618, w: .834896564}
+      scale: {x: 1.00000072, y: .999999046, z: 1.00000036}
+      transformModified: 1
+    - name: foot.R_end
+      position: {x: -0, y: .0109276148, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: slot_3
+      position: {x: -.00324646919, y: .0113862837, z: -.00200975197}
+      rotation: {x: -.0509283356, y: -.0384952947, z: -.997959733, w: .000866091868}
+      scale: {x: 1.0000006, y: 1.00000095, z: 1.00003922}
+      transformModified: 1
+    - name: slot_3 1
+      position: {x: .000997358584, y: -.00245987345, z: .00039960249}
+      rotation: {x: -.720400512, y: -.0224218238, z: -.0227712151, w: .692821622}
+      scale: {x: .999998987, y: .999961793, z: .999999583}
+      transformModified: 1
+    - name: Potion_Mana
+      position: {x: -.000194723601, y: -.000651123817, z: .0014904117}
+      rotation: {x: -.0119695663, y: .030844545, z: .259110332, w: .96528089}
+      scale: {x: .999598801, y: .999166608, z: .99999702}
+      transformModified: 1
+    - name: slot_3_end
+      position: {x: -0, y: .00499999989, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: slot_1
+      position: {x: .000251718709, y: -.00110416138, z: .00598032214}
+      rotation: {x: -.705273926, y: -.0508809239, z: -.705273688, w: .0508808941}
+      scale: {x: 1.00000167, y: 1.00000131, z: 1.00000048}
+      transformModified: 1
+    - name: slot_1 1
+      position: {x: 1.19209287e-09, y: 4.76837148e-09, z: -1.19209287e-09}
+      rotation: {x: -.7383551, y: .011253383, z: -.00736795412, w: .674278021}
+      scale: {x: .999999404, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: Grenade_Smoke
+      position: {x: .000668805849, y: -.000283318164, z: .000241503716}
+      rotation: {x: .196797341, y: -.0754994228, z: .0105771581, w: .977475703}
+      scale: {x: .999999404, y: 1, z: 1}
+      transformModified: 1
+    - name: slot_1_end
+      position: {x: -0, y: .00499999989, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: slot_2
+      position: {x: -.0015190494, y: -.00201494503, z: .00491919275}
+      rotation: {x: -.705273926, y: -.0508808941, z: -.705273688, w: .0508809164}
+      scale: {x: 1.00000131, y: 1.00000155, z: 1.00000048}
+      transformModified: 1
+    - name: slot_2 1
+      position: {x: -1.19209287e-09, y: 0, z: 0}
+      rotation: {x: -.738355041, y: .0112533839, z: -.00736797787, w: .674278021}
+      scale: {x: .999999702, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: Grenade_Sulfur
+      position: {x: -.000244260416, y: .00153638539, z: .000456371286}
+      rotation: {x: .100190677, y: .0301183723, z: .923224807, w: .369744211}
+      scale: {x: .999999046, y: .999999166, z: .999999881}
+      transformModified: 1
+    - name: slot_2_end
+      position: {x: -0, y: .00499999989, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso
+      position: {x: -6.0451999e-10, y: -1.2681084e-10, z: -.00292558246}
+      rotation: {x: -.718240321, y: 1.11378753e-07, z: 1.76962985e-07, w: .695795119}
+      scale: {x: .999999821, y: 1.0000006, z: 1.0000006}
+      transformModified: 1
+    - name: neck
+      position: {x: 1.16965071e-09, y: .0134941218, z: -.000964300823}
+      rotation: {x: -.0803054795, y: 8.81830076e-08, z: -1.35201148e-07, w: .996770322}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: head
+      position: {x: -5.3290704e-17, y: .00442511449, z: 2.08616258e-09}
+      rotation: {x: .0928979069, y: -6.02892669e-09, z: 7.21110425e-08, w: .995675623}
+      scale: {x: .999999821, y: .999999523, z: .999999881}
+      transformModified: 1
+    - name: brow.L
+      position: {x: -.00212859153, y: .00529860985, z: .00343847182}
+      rotation: {x: -.0586739816, y: .702371359, z: .706925988, w: .0590548664}
+      scale: {x: .99999994, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: brow.L_end
+      position: {x: -0, y: .00382070825, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: brow.R
+      position: {x: .00212858105, y: .00529860985, z: .00343847158}
+      rotation: {x: .0586753674, y: .702371538, z: .706925929, w: -.0590534508}
+      scale: {x: .999999583, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: brow.R_end
+      position: {x: -0, y: .00382070825, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyelid.L
+      position: {x: -.00160360604, y: .00421497505, z: .00434376253}
+      rotation: {x: -.0752881244, y: .700785339, z: .705329537, w: .0757755116}
+      scale: {x: .999998569, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: eyelid.L_end
+      position: {x: -0, y: .00292215985, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyelid.R
+      position: {x: .00160359556, y: .00421497505, z: .00434376253}
+      rotation: {x: .0752880648, y: .700785279, z: .705329597, w: -.0757756829}
+      scale: {x: .999999106, y: .999999881, z: 1}
+      transformModified: 1
+    - name: eyelid.R_end
+      position: {x: -0, y: .00292215846, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: jaw
+      position: {x: 3.54229784e-10, y: -.000551334699, z: .000908771588}
+      rotation: {x: -1.98220874e-07, y: .621865869, z: .783123732, w: -1.45617847e-07}
+      scale: {x: .999999881, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: jaw_end
+      position: {x: -0, y: .00773130637, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle.L
+      position: {x: -6.91290269e-09, y: .011660818, z: -.00134945789}
+      rotation: {x: .574491262, y: -.451960623, z: -.524797678, w: -.436209619}
+      scale: {x: .999999404, y: 1.00000012, z: .999999642}
+      transformModified: 1
+    - name: shoulder.L
+      position: {x: -2.42143861e-10, y: .00672740303, z: 1.4416873e-08}
+      rotation: {x: .0687538758, y: .108631261, z: .0215213913, w: .991468132}
+      scale: {x: 1.00000048, y: .999998927, z: .999999523}
+      transformModified: 1
+    - name: arm.L
+      position: {x: -2.98023217e-10, y: .0121875424, z: 1.49011603e-09}
+      rotation: {x: -.0477570705, y: .844609737, z: -.0162048638, w: -.533002079}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: hand.L
+      position: {x: 1.08033416e-09, y: .0139182257, z: -1.49011603e-09}
+      rotation: {x: -.023903437, y: -.0211830512, z: .13163808, w: .990783274}
+      scale: {x: 1.00000036, y: 1.00000095, z: .999999642}
+      transformModified: 1
+    - name: fingers.L
+      position: {x: 1.00772009e-10, y: .00695511745, z: -9.18225829e-10}
+      rotation: {x: -.0170144029, y: -.00866084918, z: -.0672032461, w: .997556686}
+      scale: {x: .999999404, y: .999999106, z: 1.00000024}
+      transformModified: 1
+    - name: fingertips.L
+      position: {x: -4.28408364e-10, y: .00142668304, z: 3.72529022e-11}
+      rotation: {x: -2.16066809e-07, y: -1.40815962e-06, z: -1.13761041e-06, w: 1}
+      scale: {x: .999999762, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: fingertips.L_end
+      position: {x: -0, y: .00285337074, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.L
+      position: {x: -.00113299896, y: .00391400745, z: .00166094478}
+      rotation: {x: .343981683, y: .0891632959, z: -.0817884803, w: .931148291}
+      scale: {x: .999999225, y: .999998927, z: .999999881}
+      transformModified: 1
+    - name: thumb.L_end
+      position: {x: -0, y: .00354620512, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: weapon.L
+      position: {x: -.0010294664, y: .00598601671, z: -.000174949513}
+      rotation: {x: .64351207, y: .40062356, z: .288516849, w: .584936917}
+      scale: {x: .999998748, y: .999998689, z: .999998271}
+      transformModified: 1
+    - name: Shield
+      position: {x: -.00201230519, y: -.000127103325, z: .00391864777}
+      rotation: {x: -.668848693, y: .287231803, z: .250398755, w: .638310134}
+      scale: {x: .999999881, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: weapon.L_end
+      position: {x: -0, y: .00580922514, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle.R
+      position: {x: -4.05493472e-10, y: .0116608161, z: -.00134945812}
+      rotation: {x: .574492037, y: .451960087, z: .524797916, w: -.436208814}
+      scale: {x: .99999994, y: .999999821, z: .999999702}
+      transformModified: 1
+    - name: shoulder.R
+      position: {x: 5.02914155e-10, y: .0067274021, z: -5.06639486e-09}
+      rotation: {x: .0687553585, y: -.108632192, z: -.0215220451, w: .991467893}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: arm.R
+      position: {x: -1.7881393e-09, y: .0121875377, z: -5.3644178e-09}
+      rotation: {x: -.0477559417, y: -.844609439, z: .0162052847, w: -.533002615}
+      scale: {x: .999999881, y: 1.00000024, z: .999999702}
+      transformModified: 1
+    - name: hand.R
+      position: {x: 1.52736901e-09, y: .0139182098, z: 2.08616258e-09}
+      rotation: {x: .0239019655, y: -.0211830437, z: .13163808, w: -.990783215}
+      scale: {x: .999999523, y: .999999642, z: 1}
+      transformModified: 1
+    - name: fingers.R
+      position: {x: 1.19209287e-09, y: .00695512537, z: 6.70552225e-10}
+      rotation: {x: -.0170171782, y: .00866322964, z: .0672005117, w: .997556746}
+      scale: {x: 1.00000167, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: fingertips.R
+      position: {x: -4.84287721e-09, y: .0014266884, z: 1.11758702e-09}
+      rotation: {x: 1.26659856e-07, y: -6.63101616e-07, z: -2.27708341e-07, w: 1}
+      scale: {x: .999999225, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: fingertips.R_end
+      position: {x: -0, y: .00285338005, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.R
+      position: {x: .00113299652, y: .00391400652, z: .0016609513}
+      rotation: {x: .343979865, y: -.0891621709, z: .0817885399, w: .931149125}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: thumb.R_end
+      position: {x: -0, y: .00354620139, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: weapon.R
+      position: {x: .00102946267, y: .00598602742, z: -.000174963687}
+      rotation: {x: .643511355, y: -.400622159, z: -.288517565, w: .584938228}
+      scale: {x: .999999881, y: .999999642, z: .999999821}
+      transformModified: 1
+    - name: Sword
+      position: {x: .000614614459, y: .00204125699, z: -.000588436087}
+      rotation: {x: -.3917588, y: .736696303, z: .545012772, w: .0822475553}
+      scale: {x: 1.00000012, y: .999999821, z: 1}
+      transformModified: 1
+    - name: weapon.R_end
+      position: {x: -0, y: .00580922514, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Warrior_Skin_1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: Warrior_Skin_2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: Warrior_Skin_3
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

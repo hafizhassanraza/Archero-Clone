@@ -1,0 +1,4400 @@
+fileFormatVersion: 2
+guid: da381b880dd6f4cb8af7c512e2cc5f38
+timeCreated: 1459802359
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ankle_IK_L
+    100002: ankle_IK_R
+    100004: //RootNode
+    100006: Archer_Skin_1
+    100008: Archer_Skin_2
+    100010: Archer_Skin_3
+    100012: arm_L
+    100014: arm_R
+    100016: Armature_Archer
+    100018: Armature_Bow
+    100020: Arrow_Explosive
+    100022: Arrow_Explosive_Tip_1
+    100024: Arrow_Explosive_Tip_2
+    100026: Arrow_Explosive_Tip_3
+    100028: Arrow_Piercing
+    100030: Arrow_Piercing_Tip_1
+    100032: Arrow_Piercing_Tip_2
+    100034: Arrow_Piercing_Tip_3
+    100036: Arrow_Regular
+    100038: Arrow_Regular_Tip_1
+    100040: Arrow_Regular_Tip_2
+    100042: Arrow_Regular_Tip_3
+    100044: bottom
+    100046: Bow
+    100048: brow_L
+    100050: brow_R
+    100052: calf_L
+    100054: calf_R
+    100056: clavicle_L
+    100058: clavicle_R
+    100060: elbow_IK_L
+    100062: elbow_IK_R
+    100064: eyelid_L
+    100066: eyelid_R
+    100068: fingers_L
+    100070: fingers_R
+    100072: fingertips_L
+    100074: fingertips_R
+    100076: foot_L
+    100078: foot_R
+    100080: Grenade_Smoke
+    100082: Grenade_Sulfur
+    100084: hand_L
+    100086: hand_R
+    100088: head
+    100090: hips
+    100092: jaw
+    100094: knee_IK_L
+    100096: knee_IK_R
+    100098: main
+    100100: neck
+    100102: Potion_Stamina
+    100104: quad_L
+    100106: quad_R
+    100108: shoulder_L
+    100110: shoulder_R
+    100112: slot_1
+    100114: slot_2
+    100116: slot_3
+    100118: slot_4
+    100120: slot_5
+    100122: slot_6
+    100124: spine
+    100126: thumb_L
+    100128: thumb_R
+    100130: top
+    100132: torso
+    100134: trigger
+    100136: weapon_L
+    100138: weapon_R
+    100140: wrist_IK_L
+    100142: wrist_IK_R
+    100144: Slot_Bow
+    100146: ankle_IK.L
+    100148: ankle_IK.L_end
+    100150: ankle_IK.R
+    100152: ankle_IK.R_end
+    100154: arm.L
+    100156: arm.R
+    100158: bottom_end
+    100160: brow.L
+    100162: brow.L_end
+    100164: brow.R
+    100166: brow.R_end
+    100168: calf.L
+    100170: calf.R
+    100172: clavicle.L
+    100174: clavicle.R
+    100176: elbow_IK.L
+    100178: elbow_IK.L_end
+    100180: elbow_IK.R
+    100182: elbow_IK.R_end
+    100184: eyelid.L
+    100186: eyelid.L_end
+    100188: eyelid.R
+    100190: eyelid.R_end
+    100192: fingers.L
+    100194: fingers.R
+    100196: fingertips.L
+    100198: fingertips.L_end
+    100200: fingertips.R
+    100202: fingertips.R_end
+    100204: foot.L
+    100206: foot.L_end
+    100208: foot.R
+    100210: foot.R_end
+    100212: hand.L
+    100214: hand.R
+    100216: jaw_end
+    100218: knee_IK.L
+    100220: knee_IK.L_end
+    100222: knee_IK.R
+    100224: knee_IK.R_end
+    100226: quad.L
+    100228: quad.R
+    100230: shoulder.L
+    100232: shoulder.R
+    100234: slot_1 1
+    100236: slot_1_end
+    100238: slot_2 1
+    100240: slot_2_end
+    100242: slot_3 1
+    100244: slot_3_end
+    100246: thumb.L
+    100248: thumb.L_end
+    100250: thumb.R
+    100252: thumb.R_end
+    100254: top_end
+    100256: trigger_end
+    100258: weapon.L
+    100260: weapon.L_end
+    100262: weapon.R
+    100264: weapon.R_end
+    100266: wrist_IK.L
+    100268: wrist_IK.L_end
+    100270: wrist_IK.R
+    100272: wrist_IK.R_end
+    400000: ankle_IK_L
+    400002: ankle_IK_R
+    400004: //RootNode
+    400006: Archer_Skin_1
+    400008: Archer_Skin_2
+    400010: Archer_Skin_3
+    400012: arm_L
+    400014: arm_R
+    400016: Armature_Archer
+    400018: Armature_Bow
+    400020: Arrow_Explosive
+    400022: Arrow_Explosive_Tip_1
+    400024: Arrow_Explosive_Tip_2
+    400026: Arrow_Explosive_Tip_3
+    400028: Arrow_Piercing
+    400030: Arrow_Piercing_Tip_1
+    400032: Arrow_Piercing_Tip_2
+    400034: Arrow_Piercing_Tip_3
+    400036: Arrow_Regular
+    400038: Arrow_Regular_Tip_1
+    400040: Arrow_Regular_Tip_2
+    400042: Arrow_Regular_Tip_3
+    400044: bottom
+    400046: Bow
+    400048: brow_L
+    400050: brow_R
+    400052: calf_L
+    400054: calf_R
+    400056: clavicle_L
+    400058: clavicle_R
+    400060: elbow_IK_L
+    400062: elbow_IK_R
+    400064: eyelid_L
+    400066: eyelid_R
+    400068: fingers_L
+    400070: fingers_R
+    400072: fingertips_L
+    400074: fingertips_R
+    400076: foot_L
+    400078: foot_R
+    400080: Grenade_Smoke
+    400082: Grenade_Sulfur
+    400084: hand_L
+    400086: hand_R
+    400088: head
+    400090: hips
+    400092: jaw
+    400094: knee_IK_L
+    400096: knee_IK_R
+    400098: main
+    400100: neck
+    400102: Potion_Stamina
+    400104: quad_L
+    400106: quad_R
+    400108: shoulder_L
+    400110: shoulder_R
+    400112: slot_1
+    400114: slot_2
+    400116: slot_3
+    400118: slot_4
+    400120: slot_5
+    400122: slot_6
+    400124: spine
+    400126: thumb_L
+    400128: thumb_R
+    400130: top
+    400132: torso
+    400134: trigger
+    400136: weapon_L
+    400138: weapon_R
+    400140: wrist_IK_L
+    400142: wrist_IK_R
+    400144: Slot_Bow
+    400146: ankle_IK.L
+    400148: ankle_IK.L_end
+    400150: ankle_IK.R
+    400152: ankle_IK.R_end
+    400154: arm.L
+    400156: arm.R
+    400158: bottom_end
+    400160: brow.L
+    400162: brow.L_end
+    400164: brow.R
+    400166: brow.R_end
+    400168: calf.L
+    400170: calf.R
+    400172: clavicle.L
+    400174: clavicle.R
+    400176: elbow_IK.L
+    400178: elbow_IK.L_end
+    400180: elbow_IK.R
+    400182: elbow_IK.R_end
+    400184: eyelid.L
+    400186: eyelid.L_end
+    400188: eyelid.R
+    400190: eyelid.R_end
+    400192: fingers.L
+    400194: fingers.R
+    400196: fingertips.L
+    400198: fingertips.L_end
+    400200: fingertips.R
+    400202: fingertips.R_end
+    400204: foot.L
+    400206: foot.L_end
+    400208: foot.R
+    400210: foot.R_end
+    400212: hand.L
+    400214: hand.R
+    400216: jaw_end
+    400218: knee_IK.L
+    400220: knee_IK.L_end
+    400222: knee_IK.R
+    400224: knee_IK.R_end
+    400226: quad.L
+    400228: quad.R
+    400230: shoulder.L
+    400232: shoulder.R
+    400234: slot_1 1
+    400236: slot_1_end
+    400238: slot_2 1
+    400240: slot_2_end
+    400242: slot_3 1
+    400244: slot_3_end
+    400246: thumb.L
+    400248: thumb.L_end
+    400250: thumb.R
+    400252: thumb.R_end
+    400254: top_end
+    400256: trigger_end
+    400258: weapon.L
+    400260: weapon.L_end
+    400262: weapon.R
+    400264: weapon.R_end
+    400266: wrist_IK.L
+    400268: wrist_IK.L_end
+    400270: wrist_IK.R
+    400272: wrist_IK.R_end
+    2300000: Grenade_Smoke
+    2300002: Grenade_Sulfur
+    2300004: Potion_Stamina
+    2300006: Arrow_Explosive
+    2300008: Arrow_Explosive_Tip_1
+    2300010: Arrow_Explosive_Tip_2
+    2300012: Arrow_Explosive_Tip_3
+    2300014: Arrow_Piercing
+    2300016: Arrow_Piercing_Tip_1
+    2300018: Arrow_Piercing_Tip_2
+    2300020: Arrow_Piercing_Tip_3
+    2300022: Arrow_Regular
+    2300024: Arrow_Regular_Tip_1
+    2300026: Arrow_Regular_Tip_2
+    2300028: Arrow_Regular_Tip_3
+    3300000: Grenade_Smoke
+    3300002: Grenade_Sulfur
+    3300004: Potion_Stamina
+    3300006: Arrow_Explosive
+    3300008: Arrow_Explosive_Tip_1
+    3300010: Arrow_Explosive_Tip_2
+    3300012: Arrow_Explosive_Tip_3
+    3300014: Arrow_Piercing
+    3300016: Arrow_Piercing_Tip_1
+    3300018: Arrow_Piercing_Tip_2
+    3300020: Arrow_Piercing_Tip_3
+    3300022: Arrow_Regular
+    3300024: Arrow_Regular_Tip_1
+    3300026: Arrow_Regular_Tip_2
+    3300028: Arrow_Regular_Tip_3
+    4300000: Bow
+    4300002: Arrow_Explosive
+    4300004: Arrow_Piercing
+    4300006: Arrow_Regular
+    4300008: Arrow_Piercing_Tip_1
+    4300010: Arrow_Piercing_Tip_2
+    4300012: Arrow_Piercing_Tip_3
+    4300014: Arrow_Regular_Tip_3
+    4300016: Arrow_Regular_Tip_1
+    4300018: Arrow_Regular_Tip_2
+    4300020: Arrow_Explosive_Tip_2
+    4300022: Arrow_Explosive_Tip_1
+    4300024: Arrow_Explosive_Tip_3
+    4300026: Archer_Skin_3
+    4300028: Archer_Skin_2
+    4300030: Archer_Skin_1
+    4300032: Grenade_Smoke
+    4300034: Grenade_Sulfur
+    4300036: Potion_Stamina
+    7400000: Default Take
+    7400002: Archer_Attack_1
+    7400004: Archer_Attack_2
+    7400006: Archer_Damage
+    7400008: Archer_Jump
+    7400010: Archer_Use_1
+    7400012: Archer_Use_2
+    7400014: Archer_Use_3
+    7400016: Character_Idle_1
+    7400018: Character_Idle_2
+    7400020: Character_Idle_3
+    7400022: Character_RunCycle
+    7400024: Character_WalkCycle
+    7400026: Rogue_Attack_1
+    7400028: Rogue_Attack_2
+    7400030: Rogue_Damage
+    7400032: Character_Death
+    7400034: Rogue_Jump
+    7400036: Rogue_Use_1
+    7400038: Rogue_Use_2
+    7400040: Rogue_Use_3
+    7400042: Warrior_Attack_1
+    7400044: Warrior_Attack_2
+    7400046: Warrior_Damage
+    7400048: Warrior_Jump
+    7400050: Warrior_Use_1
+    7400052: Warrior_Use_2
+    7400054: Warrior_Use_3
+    7400056: Armature_Archer|Archer_Attack_1
+    7400058: Armature_Archer|Archer_Attack_2
+    7400060: Armature_Archer|Archer_Damage
+    7400062: Armature_Archer|Archer_Jump
+    7400064: Armature_Archer|Archer_Use_1
+    7400066: Armature_Archer|Archer_Use_2
+    7400068: Armature_Archer|Archer_Use_3
+    7400070: Armature_Archer|Character_Idle_1
+    7400072: Armature_Archer|Character_Idle_2
+    7400074: Armature_Archer|Character_Idle_3
+    7400076: Armature_Archer|Character_RunCycle
+    7400078: Armature_Archer|Character_WalkCycle
+    7400080: Armature_Archer|Rogue_Attack_1
+    7400082: Armature_Archer|Rogue_Attack_2
+    7400084: Armature_Archer|Rogue_Damage
+    7400086: Armature_Archer|Character_Death
+    7400088: Armature_Archer|Rogue_Jump
+    7400090: Armature_Archer|Rogue_Use_1
+    7400092: Armature_Archer|Rogue_Use_2
+    7400094: Armature_Archer|Rogue_Use_3
+    7400096: Armature_Archer|Warrior_Attack_1
+    7400098: Armature_Archer|Warrior_Attack_2
+    7400100: Armature_Archer|Warrior_Damage
+    7400102: Armature_Archer|Warrior_Jump
+    7400104: Armature_Archer|Warrior_Use_1
+    7400106: Armature_Archer|Warrior_Use_2
+    7400108: Armature_Archer|Warrior_Use_3
+    7400110: Armature_Bow|Archer_Attack_1
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Archer_Skin_1
+    13700002: Archer_Skin_2
+    13700004: Archer_Skin_3
+    13700006: Arrow_Explosive
+    13700008: Arrow_Explosive_Tip_1
+    13700010: Arrow_Explosive_Tip_2
+    13700012: Arrow_Explosive_Tip_3
+    13700014: Arrow_Piercing
+    13700016: Arrow_Piercing_Tip_1
+    13700018: Arrow_Piercing_Tip_2
+    13700020: Arrow_Piercing_Tip_3
+    13700022: Arrow_Regular
+    13700024: Arrow_Regular_Tip_1
+    13700026: Arrow_Regular_Tip_2
+    13700028: Arrow_Regular_Tip_3
+    13700030: Bow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature_Archer|Archer_Attack_1' has import
+      animation warnings that might lower retargeting quality:\n\t'hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Archer_Attack_2' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Archer_Damage' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Archer_Use_1' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Archer_Use_2' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Archer_Use_3' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Character_RunCycle'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Character_WalkCycle' has import animation warnings that might
+      lower retargeting quality:\n\t'hips' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\nClip 'Armature_Archer|Rogue_Attack_1'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Rogue_Attack_2' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Rogue_Damage' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Character_Death' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Rogue_Use_1' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Rogue_Use_2' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Rogue_Use_3' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Warrior_Attack_1' has import animation warnings that might
+      lower retargeting quality:\n\t'hips' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\nClip 'Armature_Archer|Warrior_Attack_2'
+      has import animation warnings that might lower retargeting quality:\n\t'hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Warrior_Damage' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Warrior_Use_1' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Armature_Archer|Warrior_Use_2' has import animation warnings that might lower
+      retargeting quality:\n\t'hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Armature_Archer|Warrior_Use_3' has
+      import animation warnings that might lower retargeting quality:\n\t'hips' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature_Archer|Archer_Attack_1
+      takeName: Armature_Archer|Archer_Attack_1
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Archer_Attack_2
+      takeName: Armature_Archer|Archer_Attack_2
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Archer_Damage
+      takeName: Armature_Archer|Archer_Damage
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Archer_Jump
+      takeName: Armature_Archer|Archer_Jump
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Archer_Use_1
+      takeName: Armature_Archer|Archer_Use_1
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Archer_Use_2
+      takeName: Armature_Archer|Archer_Use_2
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Archer_Use_3
+      takeName: Armature_Archer|Archer_Use_3
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Character_Idle_1
+      takeName: Armature_Archer|Character_Idle_1
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Character_Idle_2
+      takeName: Armature_Archer|Character_Idle_2
+      firstFrame: 0
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Character_Idle_3
+      takeName: Armature_Archer|Character_Idle_3
+      firstFrame: 0
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Character_RunCycle
+      takeName: Armature_Archer|Character_RunCycle
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: -10
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Character_WalkCycle
+      takeName: Armature_Archer|Character_WalkCycle
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Archer|Character_Death
+      takeName: Armature_Archer|Character_Death
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_Bow|Archer_Attack_1
+      takeName: Armature_Bow|Archer_Attack_1
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Archer_Skin_1
+        weight: 0
+      - path: Archer_Skin_2
+        weight: 0
+      - path: Archer_Skin_3
+        weight: 0
+      - path: Armature_Archer
+        weight: 1
+      - path: Armature_Archer/main
+        weight: 1
+      - path: Armature_Archer/main/ankle_IK.L
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.L/ankle_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R
+        weight: 0
+      - path: Armature_Archer/main/ankle_IK.R/ankle_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R
+        weight: 0
+      - path: Armature_Archer/main/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.L/knee_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R
+        weight: 0
+      - path: Armature_Archer/main/knee_IK.R/knee_IK.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine
+        weight: 1
+      - path: Armature_Archer/main/spine/hips
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.L/calf.L/foot.L/foot.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/quad.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R
+        weight: 1
+      - path: Armature_Archer/main/spine/hips/quad.R/calf.R/foot.R/foot.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1 1/Grenade_Smoke
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_1/slot_1_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2 1/Grenade_Sulfur
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_2/slot_2_end
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3 1/Potion_Stamina
+        weight: 0
+      - path: Armature_Archer/main/spine/hips/slot_3/slot_3_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Explosive_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Piercing_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_1
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_2
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/Arrow_Regular_Tip_3
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/fingers.L/fingertips.L/fingertips.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/thumb.L/thumb.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/bottom/bottom_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/top/top_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Armature_Bow/trigger/trigger_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/Slot_Bow/Bow
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.L/shoulder.L/arm.L/hand.L/weapon.L/weapon.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/fingers.R/fingertips.R/fingertips.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/thumb.R/thumb.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Explosive
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Piercing
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/Arrow_Regular
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/clavicle.R/shoulder.R/arm.R/hand.R/weapon.R/weapon.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.L/brow.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/brow.R/brow.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.L/eyelid.L_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/eyelid.R/eyelid.R_end
+        weight: 0
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw
+        weight: 1
+      - path: Armature_Archer/main/spine/torso/neck/head/jaw/jaw_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.L/wrist_IK.L_end
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R
+        weight: 0
+      - path: Armature_Archer/main/wrist_IK.R/wrist_IK.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: quad.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: quad.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: calf.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: torso
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingers.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingertips.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingers.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fingertips.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eyelid.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eyelid.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Archer(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Archer_Skin_1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: Archer_Skin_2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: Archer_Skin_3
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: Armature_Archer
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 100, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: main
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106709, y: 5.96046448e-08, z: .707106829, w: 2.98023224e-08}
+      scale: {x: 1, y: .999999702, z: .999999702}
+      transformModified: 1
+    - name: ankle_IK.L
+      position: {x: .00534781022, y: .00341157126, z: -.0060954052}
+      rotation: {x: 1, y: 2.98023224e-08, z: -4.08291817e-06, w: 2.68220901e-07}
+      scale: {x: .999999523, y: .999999642, z: .999999821}
+      transformModified: 1
+    - name: ankle_IK.L_end
+      position: {x: -0, y: .00805969257, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ankle_IK.R
+      position: {x: .00534781022, y: -.00415098295, z: .00187837088}
+      rotation: {x: -3.33786011e-06, y: 5.96046448e-08, z: 1, w: -1.1920929e-07}
+      scale: {x: .99999994, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: ankle_IK.R_end
+      position: {x: -0, y: .00805969443, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_IK.L
+      position: {x: .0698815212, y: -.0228949022, z: -.0183667224}
+      rotation: {x: -.707106709, y: -5.85475313e-09, z: -.707106829, w: 7.76974787e-08}
+      scale: {x: 1.00000036, y: 1, z: .999999762}
+      transformModified: 1
+    - name: elbow_IK.L_end
+      position: {x: -0, y: .00999952294, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_IK.R
+      position: {x: .0698815063, y: -.0228949133, z: .0183667317}
+      rotation: {x: -.707106709, y: -7.05782668e-07, z: -.707106829, w: -2.49274819e-07}
+      scale: {x: 1.00000036, y: .999999762, z: .999999464}
+      transformModified: 1
+    - name: elbow_IK.R_end
+      position: {x: -0, y: .00999952294, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_IK.L
+      position: {x: .0291405488, y: .0279682633, z: -.0102592725}
+      rotation: {x: -5.96046448e-08, y: .707106709, z: 3.26754765e-08, w: .707106829}
+      scale: {x: .999999762, y: 1, z: .999999881}
+      transformModified: 1
+    - name: knee_IK.L_end
+      position: {x: -0, y: .0122001143, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_IK.R
+      position: {x: .0291405488, y: .0279682633, z: .00711735897}
+      rotation: {x: -1.78813934e-07, y: .70710659, z: 1.64229291e-07, w: .707106948}
+      scale: {x: 1.00000012, y: .99999994, z: .999999702}
+      transformModified: 1
+    - name: knee_IK.R_end
+      position: {x: -0, y: .0122001125, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine
+      position: {x: .0603513978, y: -.00239658076, z: 8.54840732e-09}
+      rotation: {x: -2.98023473e-08, y: -.707106948, z: 0, w: .70710665}
+      scale: {x: 1.00000036, y: .999999583, z: .999999285}
+      transformModified: 1
+    - name: hips
+      position: {x: 4.55688098e-10, y: -.000647073903, z: .00220531388}
+      rotation: {x: .462725788, y: .534682035, z: .46272558, w: .534682095}
+      scale: {x: 1.00000036, y: .999999583, z: .999999285}
+      transformModified: 1
+    - name: quad.L
+      position: {x: -.00116243097, y: .00390571891, z: -.0037764688}
+      rotation: {x: -.0256065968, y: .741753757, z: .0216455739, w: .66983366}
+      scale: {x: .999999702, y: 1, z: 1.00000072}
+      transformModified: 1
+    - name: calf.L
+      position: {x: 1.86264504e-10, y: .0231770519, z: -1.11758706e-10}
+      rotation: {x: -.0734770447, y: -.0439477898, z: -.00200096075, w: .996326149}
+      scale: {x: 1.00000119, y: 1.00000131, z: .999999106}
+      transformModified: 1
+    - name: foot.L
+      position: {x: -1.11758706e-10, y: .026783593, z: 4.05125322e-10}
+      rotation: {x: .549951375, y: .0112565449, z: -.0193898603, w: .83489567}
+      scale: {x: 1.00000024, y: 1.0000006, z: .999999046}
+      transformModified: 1
+    - name: foot.L_end
+      position: {x: -0, y: .0109276148, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: quad.R
+      position: {x: -.00116242794, y: .00390568818, z: .00377646461}
+      rotation: {x: -.021647213, y: .669833243, z: .0256075785, w: .741754055}
+      scale: {x: 1.00000012, y: 1.00000095, z: 1}
+      transformModified: 1
+    - name: calf.R
+      position: {x: 8.80099826e-10, y: .0231770407, z: 2.60770322e-10}
+      rotation: {x: -.073473461, y: .0439474061, z: .00200175843, w: .996326387}
+      scale: {x: .999999583, y: .999999642, z: 1.00000012}
+      transformModified: 1
+    - name: foot.R
+      position: {x: 2.14204182e-10, y: .026783593, z: 1.49011609e-10}
+      rotation: {x: .549950182, y: -.0112579092, z: .0193875618, w: .834896564}
+      scale: {x: 1.00000072, y: .999999046, z: 1.00000036}
+      transformModified: 1
+    - name: foot.R_end
+      position: {x: -0, y: .0109276148, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: slot_1
+      position: {x: .000709451095, y: .001762053, z: -.00712643377}
+      rotation: {x: -.705273926, y: -.0508809239, z: -.705273688, w: .0508808941}
+      scale: {x: 1.00000167, y: 1.00000131, z: 1.00000048}
+      transformModified: 1
+    - name: slot_1 1
+      position: {x: 1.19209287e-09, y: -5.96046434e-10, z: 0}
+      rotation: {x: -.738355041, y: .0112533774, z: -.00736795273, w: .674278021}
+      scale: {x: .999999225, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Grenade_Smoke
+      position: {x: -.000698056829, y: -.00155423814, z: 3.34072101e-05}
+      rotation: {x: -.0136541808, y: .325709432, z: .00982884225, w: .945320249}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: slot_1_end
+      position: {x: -0, y: .00499999989, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: slot_2
+      position: {x: -.00162005215, y: .00098903547, z: -.0066524595}
+      rotation: {x: -.705273926, y: -.0508808941, z: -.705273688, w: .0508809164}
+      scale: {x: 1.00000131, y: 1.00000155, z: 1.00000048}
+      transformModified: 1
+    - name: slot_2 1
+      position: {x: 1.19209287e-09, y: 9.53674295e-09, z: -5.96046434e-10}
+      rotation: {x: -.7383551, y: .0112533849, z: -.00736797741, w: .674278021}
+      scale: {x: .999999702, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: Grenade_Sulfur
+      position: {x: -.000431978086, y: .000895115139, z: .000660414691}
+      rotation: {x: .19816944, y: .186737403, z: .206077427, w: .939888358}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: slot_2_end
+      position: {x: -0, y: .00499999989, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: slot_3
+      position: {x: -.000754733279, y: -.000811065838, z: .00639904384}
+      rotation: {x: -.705273926, y: -.0508808941, z: -.705273688, w: .0508809164}
+      scale: {x: 1.00000131, y: 1.00000155, z: 1.00000048}
+      transformModified: 1
+    - name: slot_3 1
+      position: {x: -1.19209287e-09, y: -9.53674295e-09, z: 0}
+      rotation: {x: -.793152452, y: -.0189343505, z: -.0447073281, w: .607084811}
+      scale: {x: .999999642, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Potion_Stamina
+      position: {x: -.000422906276, y: .0015653657, z: -.00139740459}
+      rotation: {x: .20628655, y: -.208215177, z: .154899627, w: .943450272}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: slot_3_end
+      position: {x: -0, y: .00499999989, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso
+      position: {x: -6.0451999e-10, y: -1.2681084e-10, z: -.00292558246}
+      rotation: {x: -.718240321, y: 1.11378753e-07, z: 1.76962985e-07, w: .695795119}
+      scale: {x: .999999821, y: 1.0000006, z: 1.0000006}
+      transformModified: 1
+    - name: Arrow_Explosive_Tip_1
+      position: {x: .000159974239, y: .00761374319, z: -.00796034746}
+      rotation: {x: -.315074354, y: -.411533952, z: .85429126, w: .0394273326}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Arrow_Explosive_Tip_2
+      position: {x: .000550081546, y: .00762682315, z: -.00711025996}
+      rotation: {x: .55454874, y: -.080969207, z: -.53415674, w: .632926762}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: Arrow_Explosive_Tip_3
+      position: {x: -4.08825363e-05, y: .00645364169, z: -.00734116556}
+      rotation: {x: -.454660535, y: -.280878335, z: .843905091, w: -.0470662899}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Arrow_Piercing_Tip_1
+      position: {x: .000329899485, y: .00725878123, z: -.00851992983}
+      rotation: {x: -.528708637, y: -.150254682, z: .690120161, w: -.470770538}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Arrow_Piercing_Tip_2
+      position: {x: .00192074291, y: .00897530373, z: -.00829769392}
+      rotation: {x: -.095173642, y: -.565510035, z: .64220053, w: .508644104}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: Arrow_Piercing_Tip_3
+      position: {x: .000874695543, y: .00742398109, z: -.00813438836}
+      rotation: {x: -.42329362, y: -.344986469, z: .837737679, w: .00158595853}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Arrow_Regular_Tip_1
+      position: {x: .000250897254, y: .00766708236, z: -.00771551346}
+      rotation: {x: .272747517, y: -.456636161, z: .33238408, w: .778853655}
+      scale: {x: 1, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: Arrow_Regular_Tip_2
+      position: {x: .00273317797, y: .00890665408, z: -.00887557399}
+      rotation: {x: .0151940705, y: -.604879022, z: .559431314, w: .566504419}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: Arrow_Regular_Tip_3
+      position: {x: .000749706989, y: .00749091478, z: -.00830608141}
+      rotation: {x: .141232058, y: -.476249844, z: .342437148, w: .797481298}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: clavicle.L
+      position: {x: -6.91290269e-09, y: .011660818, z: -.00134945789}
+      rotation: {x: .574491262, y: -.451960623, z: -.524797678, w: -.436209619}
+      scale: {x: .999999404, y: 1.00000012, z: .999999642}
+      transformModified: 1
+    - name: shoulder.L
+      position: {x: -2.42143861e-10, y: .00672740303, z: 1.4416873e-08}
+      rotation: {x: .0687538758, y: .108631261, z: .0215213913, w: .991468132}
+      scale: {x: 1.00000048, y: .999998927, z: .999999523}
+      transformModified: 1
+    - name: arm.L
+      position: {x: -2.98023217e-10, y: .0121875424, z: 1.49011603e-09}
+      rotation: {x: -.0477570705, y: .844609737, z: -.0162048638, w: -.533002079}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: hand.L
+      position: {x: 1.08033416e-09, y: .0139182257, z: -1.49011603e-09}
+      rotation: {x: -.023903437, y: -.0211830512, z: .13163808, w: .990783274}
+      scale: {x: 1.00000036, y: 1.00000095, z: .999999642}
+      transformModified: 1
+    - name: fingers.L
+      position: {x: 1.00772009e-10, y: .00695511745, z: -9.18225829e-10}
+      rotation: {x: -.0170144029, y: -.00866084918, z: -.0672032461, w: .997556686}
+      scale: {x: .999999404, y: .999999106, z: 1.00000024}
+      transformModified: 1
+    - name: fingertips.L
+      position: {x: -4.28408364e-10, y: .00142668304, z: 3.72529022e-11}
+      rotation: {x: -2.16066809e-07, y: -1.40815962e-06, z: -1.13761041e-06, w: 1}
+      scale: {x: .999999762, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: fingertips.L_end
+      position: {x: -0, y: .00285337074, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.L
+      position: {x: -.00113299896, y: .00391400745, z: .00166094478}
+      rotation: {x: .343981683, y: .0891632959, z: -.0817884803, w: .931148291}
+      scale: {x: .999999225, y: .999998927, z: .999999881}
+      transformModified: 1
+    - name: thumb.L_end
+      position: {x: -0, y: .00354620512, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: weapon.L
+      position: {x: -.0010294664, y: .00598601671, z: -.000174949513}
+      rotation: {x: .64351207, y: .40062356, z: .288516849, w: .584936917}
+      scale: {x: .999998748, y: .999998689, z: .999998271}
+      transformModified: 1
+    - name: Slot_Bow
+      position: {x: 4.76837148e-09, y: -3.57627861e-09, z: -4.76837148e-09}
+      rotation: {x: -.246574461, y: .276398689, z: .926778615, w: -.0623398051}
+      scale: {x: .999999821, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: Armature_Bow
+      position: {x: -.000293773395, y: -6.82780665e-05, z: -.000237369532}
+      rotation: {x: -.42651993, y: -.433751792, z: .694990933, w: -.38331154}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: bottom
+      position: {x: .0037654948, y: 0, z: -.00853775628}
+      rotation: {x: .171325743, y: .724076688, z: -.444887668, w: .498433024}
+      scale: {x: .99999994, y: 1.00000012, z: .999999702}
+      transformModified: 1
+    - name: bottom_end
+      position: {x: -0, y: .0243428219, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: top
+      position: {x: .0037654948, y: 0, z: .00853775628}
+      rotation: {x: .587590992, y: -.45648244, z: .638152122, w: .197793916}
+      scale: {x: 1.00000012, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: top_end
+      position: {x: -0, y: .0243428219, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: trigger
+      position: {x: -.00918885786, y: 0, z: 0}
+      rotation: {x: -.280248642, y: -.622555017, z: .630165458, w: .369834512}
+      scale: {x: .999999464, y: .999999762, z: 1.00000024}
+      transformModified: 1
+    - name: trigger_end
+      position: {x: -0, y: .010340644, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bow
+      position: {x: -1.07003808, y: 4.27853537, z: -.0143068321}
+      rotation: {x: .0305530373, y: -.184723988, z: -.798141718, w: .5726372}
+      scale: {x: 99.9999924, y: 100.000008, z: 100.000008}
+      transformModified: 1
+    - name: weapon.L_end
+      position: {x: -0, y: .00580922514, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle.R
+      position: {x: -4.05493472e-10, y: .0116608161, z: -.00134945812}
+      rotation: {x: .574492037, y: .451960087, z: .524797916, w: -.436208814}
+      scale: {x: .99999994, y: .999999821, z: .999999702}
+      transformModified: 1
+    - name: shoulder.R
+      position: {x: 5.02914155e-10, y: .0067274021, z: -5.06639486e-09}
+      rotation: {x: .0687553585, y: -.108632192, z: -.0215220451, w: .991467893}
+      scale: {x: 1.00000048, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: arm.R
+      position: {x: -1.7881393e-09, y: .0121875377, z: -5.3644178e-09}
+      rotation: {x: -.0477559417, y: -.844609439, z: .0162052847, w: -.533002615}
+      scale: {x: .999999881, y: 1.00000024, z: .999999702}
+      transformModified: 1
+    - name: hand.R
+      position: {x: 1.52736901e-09, y: .0139182098, z: 2.08616258e-09}
+      rotation: {x: .0239019655, y: -.0211830437, z: .13163808, w: -.990783215}
+      scale: {x: .999999523, y: .999999642, z: 1}
+      transformModified: 1
+    - name: fingers.R
+      position: {x: 1.19209287e-09, y: .00695512537, z: 6.70552225e-10}
+      rotation: {x: -.0170171782, y: .00866322964, z: .0672005117, w: .997556746}
+      scale: {x: 1.00000167, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: fingertips.R
+      position: {x: -4.84287721e-09, y: .0014266884, z: 1.11758702e-09}
+      rotation: {x: 1.26659856e-07, y: -6.63101616e-07, z: -2.27708341e-07, w: 1}
+      scale: {x: .999999225, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: fingertips.R_end
+      position: {x: -0, y: .00285338005, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.R
+      position: {x: .00113299652, y: .00391400652, z: .0016609513}
+      rotation: {x: .343979865, y: -.0891621709, z: .0817885399, w: .931149125}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: thumb.R_end
+      position: {x: -0, y: .00354620139, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: weapon.R
+      position: {x: .00102946267, y: .00598602742, z: -.000174963687}
+      rotation: {x: .643511236, y: -.400622189, z: -.288517565, w: .584938228}
+      scale: {x: 1.00000012, y: .999999285, z: .999999762}
+      transformModified: 1
+    - name: Arrow_Explosive
+      position: {x: .00030225754, y: -2.31808426e-05, z: -1.5146732e-05}
+      rotation: {x: -.00764897559, y: .752766013, z: .657424927, w: .0328220688}
+      scale: {x: .999999642, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: Arrow_Piercing
+      position: {x: .00030225754, y: -2.31808426e-05, z: -1.5146732e-05}
+      rotation: {x: -.00764897559, y: .752766013, z: .657424927, w: .0328220688}
+      scale: {x: .999999642, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: Arrow_Regular
+      position: {x: .00030225754, y: -2.31808426e-05, z: -1.5146732e-05}
+      rotation: {x: -.00764897559, y: .752766013, z: .657424927, w: .0328220688}
+      scale: {x: .999999642, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: weapon.R_end
+      position: {x: -0, y: .00580922514, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck
+      position: {x: 1.16965071e-09, y: .0134941218, z: -.000964300823}
+      rotation: {x: -.0803054795, y: 8.81830076e-08, z: -1.35201148e-07, w: .996770322}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: head
+      position: {x: -5.3290704e-17, y: .00442511449, z: 2.08616258e-09}
+      rotation: {x: .0928979069, y: -6.02892669e-09, z: 7.21110425e-08, w: .995675623}
+      scale: {x: .999999821, y: .999999523, z: .999999881}
+      transformModified: 1
+    - name: brow.L
+      position: {x: -.00212859153, y: .00529860985, z: .00343847182}
+      rotation: {x: -.0586739816, y: .702371359, z: .706925988, w: .0590548664}
+      scale: {x: .99999994, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: brow.L_end
+      position: {x: -0, y: .00382070825, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: brow.R
+      position: {x: .00212858105, y: .00529860985, z: .00343847158}
+      rotation: {x: .0586753674, y: .702371538, z: .706925929, w: -.0590534508}
+      scale: {x: .999999583, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: brow.R_end
+      position: {x: -0, y: .00382070825, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyelid.L
+      position: {x: -.00160360604, y: .00421497505, z: .00434376253}
+      rotation: {x: -.0752881244, y: .700785339, z: .705329537, w: .0757755116}
+      scale: {x: .999998569, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: eyelid.L_end
+      position: {x: -0, y: .00292215985, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyelid.R
+      position: {x: .00160359556, y: .00421497505, z: .00434376253}
+      rotation: {x: .0752880648, y: .700785279, z: .705329597, w: -.0757756829}
+      scale: {x: .999999106, y: .999999881, z: 1}
+      transformModified: 1
+    - name: eyelid.R_end
+      position: {x: -0, y: .00292215846, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: jaw
+      position: {x: 3.54229784e-10, y: -.000551334699, z: .000908771588}
+      rotation: {x: -1.98220874e-07, y: .621865869, z: .783123732, w: -1.45617847e-07}
+      scale: {x: .999999881, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: jaw_end
+      position: {x: -0, y: .00773130637, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wrist_IK.L
+      position: {x: .0488282591, y: -.00198727567, z: -.0106420266}
+      rotation: {x: -.707106709, y: -4.19488288e-07, z: -.707106829, w: 2.52907455e-08}
+      scale: {x: 1.00000036, y: 1, z: .999999762}
+      transformModified: 1
+    - name: wrist_IK.L_end
+      position: {x: -0, y: .00891657732, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wrist_IK.R
+      position: {x: .0487455167, y: -.00111038564, z: .0106738312}
+      rotation: {x: -.707106709, y: -4.19488288e-07, z: -.707106829, w: 2.52907597e-08}
+      scale: {x: 1.00000036, y: 1, z: .999999762}
+      transformModified: 1
+    - name: wrist_IK.R_end
+      position: {x: -0, y: .00891658012, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
